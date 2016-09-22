@@ -12,6 +12,7 @@
 		CDA418661D946E6700F86359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA418641D946E6700F86359 /* Main.storyboard */; };
 		CDA418681D946E6700F86359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA418671D946E6700F86359 /* Assets.xcassets */; };
 		CDA4186B1D946E6700F86359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA418691D946E6700F86359 /* LaunchScreen.storyboard */; };
+		CDF43EB01D9482B10053CE92 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDF43EAF1D9482B10053CE92 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CDA418671D946E6700F86359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA4186A1D946E6700F86359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA4186C1D946E6700F86359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF43EAF1D9482B10053CE92 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CDA4185F1D946E6700F86359 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				CDF43EAF1D9482B10053CE92 /* btn.wav */,
 				CDA418601D946E6700F86359 /* AppDelegate.swift */,
 				CDA418621D946E6700F86359 /* ViewController.swift */,
 				CDA418641D946E6700F86359 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 				CDA4186B1D946E6700F86359 /* LaunchScreen.storyboard in Resources */,
 				CDA418681D946E6700F86359 /* Assets.xcassets in Resources */,
 				CDA418661D946E6700F86359 /* Main.storyboard in Resources */,
+				CDF43EB01D9482B10053CE92 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				CDA418711D946E6700F86359 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
